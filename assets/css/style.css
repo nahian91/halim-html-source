@@ -57,6 +57,45 @@ a{
 .box-btn:hover {
   color: #fff;
 }
+.pt-100{
+  padding-top: 100px;
+}
+.pb-100{
+  padding-bottom: 100px;
+}
+
+/* Section Title CSS */
+
+
+.section-title {
+  position: relative;
+  margin-bottom: 100px;
+}
+.row.section-title h4 {
+  text-transform: capitalize;
+  font-size: 36px;
+  font-weight: 600;
+}
+.section-title:after {
+  position: absolute;
+  content: "";
+  width: 80px;
+  height: 2px;
+  background-color: #635CDB;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -15px;
+}
+.section-title::before {
+	position: absolute;
+	content: "";
+	width: 110px;
+	height: 2px;
+	background-color: #635CDB;
+	left: 50%;
+	transform: translateX(-50%) rotate(90deg);
+	top: 38px;
+}
 
 /* Top Area CSS */
 
@@ -147,4 +186,61 @@ a{
 }
 .slider-area .owl-dots .owl-dot.active {
   background-color: #635CDB !important;
+}
+
+/* About Area CSS */
+
+
+.about-content h4 {
+  text-transform: capitalize;
+  font-size: 26px;
+  position: relative;
+  padding-bottom: 12px;
+}
+.about-content h4:before {
+  position: absolute;
+  content: "";
+  width: 40px;
+  height: 2px;
+  background-color: #635CDB;
+  bottom: 0;
+  left: 0;
+}
+.single-about {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.single-about i {
+  font-size: 16px;
+  border: 1px solid #635CDB;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  color: #635CDB;
+  transition: .3s;
+}
+.icon {
+  margin-right: 22px;
+}
+.single-about h4 {
+  text-transform: capitalize;
+  font-size: 22px;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 12px;
+}
+.single-about:hover i {
+  background-color: #635CDB;
+  color: #fff;
+}
+.single-about h4:before {
+  position: absolute;
+  content: "";
+  width: 40px;
+  height: 2px;
+  background-color: #635CDB;
+  bottom: 0;
 }
