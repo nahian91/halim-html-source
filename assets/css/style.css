@@ -244,3 +244,128 @@ a{
   background-color: #635CDB;
   bottom: 0;
 }
+
+/* Skill CSS */
+
+.skill-area{
+  color:#fff;
+}
+
+.skill-accordion .accordion-button {
+  background-color: #635cdb;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 0 !important;
+}
+.skill-accordion .accordion-body {
+  background-color: #fff;
+  color: #333;
+}
+.skill-accordion .accordion-button:focus {
+  border: 0;
+  box-shadow: none;
+}
+
+.skill-title h4 {
+  text-transform: uppercase;
+  font-size: 22px;
+  margin-bottom: 30px;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 12px;
+}
+.skill-title h4:before {
+  position: absolute;
+  content: "";
+  width: 35px;
+  height: 2px;
+  background-color: #635cdb;
+  bottom: 0;
+}
+
+.single-progress h4 {
+  text-transform: capitalize;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.single-progress {
+  margin-bottom: 25px;
+}
+.single-progress .progress-bar {
+  background-color: #635cdb;
+  padding: ;
+}
+.single-progress .progress {
+  height: 25px;
+}
+
+
+/* Services CSS */
+
+
+.single-service {
+  text-align: center;
+  box-shadow: 0px 10px 30px 0px rgba(205, 205, 205, 0.33);
+  padding: 20px 30px;
+  margin-bottom: 30px;
+  transition: .3s;
+  border-bottom: 3px solid transparent;
+}
+.single-service i {
+  font-size: 24px;
+  background-color: #635cdb;
+  color: #fff;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 50%;
+  margin-bottom: 12px;
+  transition: .3s;
+}
+.single-service h4 {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 15px 0;
+  font-size: 20px;
+}
+.single-service:hover {
+	border-color: #635cdb;
+}
+.single-service:hover i{
+  border-radius: 0;
+}
+
+/* Counter CSS */
+
+.counter-area .col-xxl-3:nth-child(2n) .single-counter {
+	background-color: #24283f;
+}
+.single-counter {
+  background-color: #292e47;
+  color: #fff;
+  padding: 80px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.single-counter i {
+  font-size: 20px;
+  background-color: #635cdb;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.single-counter h4 span {
+  display: block;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.single-counter h4 {
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 500;
+}
