@@ -1,10 +1,19 @@
 $(document).ready(function(){
 
     /* Main Slider Active */
-    $(".owl-carousel").owlCarousel({
+    $(".sliders").owlCarousel({
         'items': 1,
         'loop': true,
         'autoplay': true
+    });
+
+    /* Testimonials Active */
+    $(".testimonials").owlCarousel({
+        'items': 3,
+        'loop': true,
+        'autoplay': true,
+        'margin' : 30,
+        'center' : true
     });
 
     /* CounterUp Active */
