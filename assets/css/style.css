@@ -465,3 +465,121 @@ a{
 .owl-item.active.center .single-testimonial {
 	background-color: #635cdb;
 }
+
+/* Blog CSS */
+
+.single-blog {
+  border: 1px solid #eee;
+}
+.single-blog img {
+  width: 100%;
+}
+.blog-content {
+  padding: 20px 30px;
+}
+.blog-title h4 {
+  text-transform: capitalize;
+  font-size: 22px;
+  margin-bottom: 6px;
+}
+.blog-content p {
+  margin: 15px 0;
+  border-top: 1px dashed #ddd;
+  padding-top: 15px;
+}
+
+/* CTA CSS */
+
+
+.cta-area {
+  position: relative;
+  padding: 40px 0;
+  color: #fff;
+  z-index: 2;
+}
+.cta-area:before {
+  position: absolute;
+  content: "";
+  width: 50%;
+  height: 100%;
+  background-color: #292e47;
+  z-index: -1;
+  left: 0;
+  top: 0;
+}
+.cta-area:after {
+  position: absolute;
+  content: "";
+  width: 50%;
+  height: 100%;
+  background-color: #24283f;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+.cta-area p {
+  margin-bottom: 0;
+  text-transform: capitalize;
+}
+.cta-area h4 {
+  text-transform: capitalize;
+  font-size: 26px;
+}
+
+/* Footer CSS */
+
+
+.footer-area {
+  padding: 60px 0;
+  color: #fff;
+}
+.footer-area.bg:before {
+  opacity: 1;
+}
+.single-footer h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 900;
+  margin-top: 36px;
+}
+.single-footer p {
+  text-align: center;
+}
+.single-footer h4 {
+  text-transform: capitalize;
+  font-size: 20px;
+  position: relative;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+}
+.single-footer h4:before {
+  position: absolute;
+  content: "";
+  width: 40px;
+  height: 2px;
+  background-color: #635cdb;
+  bottom: 0;
+  left: 0;
+}
+.single-footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.single-footer ul li a {
+  color: #fff;
+}
+.single-footer ul li {
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+}
+.row.footer-bottom {
+	border-top: 1px solid #999;
+	padding-top: 30px;
+	margin-top: 30px;
+	margin: ;
+}
+.footer-social a {
+  color: #fff;
+  margin-left: 10px;
+}
