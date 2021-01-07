@@ -20,15 +20,14 @@ $(document).ready(function(){
     $('.counter').counterUp();
 });
 
-$(window).load(function () {
 
-    /* Sticky Header
-    ============================*/
-    $(window).on('scroll', function () {
-        if ($(this).scrollTop() > 1) {
-            $('.header-area').addClass("sticky");
-        } else {
-            $('.header-area').removeClass("sticky");
+$(window).load(function(){
+    $(this).on('scroll', function(){
+        if($(this).scrollTop() > 50){
+            $('.header-area').addClass('sticky');
         }
-    });
-});
+        else{
+            $('.header-area').removeClass('sticky');
+        }
+    })
+})
