@@ -160,6 +160,7 @@ a{
     transition: .3s;
     transform: scaleY(0);
     transform-origin: 0 0 0;
+    padding:10px 0;
   }
   .navbar-nav ul li.caret::after {
     content: "\f107";
@@ -180,9 +181,14 @@ a{
     padding-bottom: 5px;
     margin-bottom: 5px;
   }
+  .navbar-nav ul li ul li:last-child {
+    border-bottom: 0;
+    margin-bottom: 0;
+  }
   .navbar-nav ul li ul li a {
     display: block;
     padding: 0 15px;
+    font-size: 15px;
   }
   
 .navbar {
@@ -658,4 +664,34 @@ a{
 .footer-social a {
   color: #fff;
   margin-left: 10px;
+}
+
+/* Breadcumb CSS */
+
+.breadcumb-area {
+  background-color: #635CDB;
+  padding: 60px 0;
+}
+.breadcumb-area h4 {
+  margin-bottom: 0;
+  text-transform: capitalize;
+  color: #fff;
+  font-size: 40px;
+}
+.breadcumb-area ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 7px;
+  color: #fff;
+}
+.breadcumb-area ul li {
+  margin: 0 5px;
+  color: #fff;
+  text-transform: capitalize;
+}
+.breadcumb-area ul li a {
+  color: #fff;
 }
