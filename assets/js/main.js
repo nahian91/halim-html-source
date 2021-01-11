@@ -18,6 +18,19 @@ $(document).ready(function(){
 
     /* CounterUp Active */
     $('.counter').counterUp();
+
+    // init Isotope
+    var $grid = $('.portfolio-items').isotope();
+    // filter items on menu click
+    $('.portfolio-menu').on( 'click', 'li', function() {
+        var filterValue = $(this).attr('data-filter');
+        $grid.isotope({ filter: filterValue });
+    });
+
+    // filter items menu active
+    $('.portfolio-menu').on( 'click', 'li', function() {
+        $(this).addClass('active').siblings().removeClass('active');
+    });
 });
 
 
