@@ -31,6 +31,14 @@ $(document).ready(function(){
     $('.portfolio-menu').on( 'click', 'li', function() {
         $(this).addClass('active').siblings().removeClass('active');
     });
+
+    // Magnific Image Gallery
+    $('.gallery').magnificPopup({
+        type:'image',
+        gallery:{
+            enabled:true
+          }
+    });
 });
 
 
