@@ -569,6 +569,9 @@ a {
   border-top: 1px dashed #ddd;
   padding-top: 15px;
 }
+.blog-page-area .single-blog {
+	margin-bottom: 30px;
+}
 
 /* CTA CSS */
 
