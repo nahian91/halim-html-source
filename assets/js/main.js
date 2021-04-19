@@ -13,7 +13,19 @@ $(document).ready(function(){
         'loop': true,
         'autoplay': true,
         'margin' : 30,
-        'center' : true
+        'center' : true,
+        responsive:{
+            0:{
+                items:1
+            },
+            750:{
+                items:2,
+                center: false
+            },
+            1000:{
+                items:3
+            }
+        }
     });
 
     /* CounterUp Active */
